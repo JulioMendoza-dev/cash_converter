@@ -60,20 +60,3 @@ document.getElementById('search').addEventListener('click', async(event) =>{
 
 renderCoinOptions(api_url)
 
-async function createChart(url, coinID){
-    const coin = await fetch(`${url}/${coinID}`);
-    const {serie} =  await coin.json();
-}
-
-new Chart("myChart", {
-type: "line",
-data: {
-    labels: xValues,
-    datasets: [{
-    backgroundColor:"rgba(0,0,255,1.0)",
-    borderColor: "rgba(0,0,255,0.1)",
-    data: yValues
-    }]
-},
-options:{...}
-});
