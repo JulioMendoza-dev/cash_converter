@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px;
+    padding: 20px;
+    background-color: aqua;
+    align-items: center;
+    
+}
+#select_coin{
+    height: 35px;
+    width: 150px;
+}
+
+#inputPesos{
+    height: 30px;
+    width: 150px;
+}
+
+#contenedorConsulta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px;
+    padding: 20px;
+    background-color: aqua;
+    align-items: center;
+}
+
+#display{
+    background-color: rgb(15, 33, 66);
+    color: yellow;
+    height: 25px;
+    width: 200px;
+    border: solid 3px black;
+}
+
+#search{
+    height: 25px;
+    width: 100px;
+}
+#resultado{
+    height: 25px;
+    width: 100px;
+}

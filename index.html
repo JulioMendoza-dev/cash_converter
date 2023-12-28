@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>apis</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+
+    </script>
+
+</head>
+
+<body>
+    <h1>monedas locales</h1>
+    <hr>
+    <div id="container">
+        <label for="select_coin">seleccione una moneda </label>
+        <select name="" id="select_coin">
+            <option value="" disabled selected>$</option>
+        </select>
+        <hr>
+        <div id="divConversion">
+            <label id="pes" for="inputPesos">ingresa cantidad de pesos: $</label>
+            <input id="inputPesos" type="number" placeholder="  ...">
+        </div>
+        <hr>
+        <div id="contenedorConsulta">
+            <button id="search">consultar</button>
+            <h3 id="resultado">resultado:</h3>
+            <h3 id="display"></h3>
+        </div>
+    </div>
+
+    <div id="graphic">
+        <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
+    </div>
+
+    <!-- scripts -->
+    <script src="./assets/js/script.js"></script>
+    <!-- chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+    </script>
+
+</body>
+
+</html>
